@@ -1,0 +1,200 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3739501254,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Search the product, add to basket, checkout and validate the review and pay page.",
+        "description": "",
+        "id": "reviewandpay;search-the-product,-add-to-basket,-checkout-and-validate-the-review-and-pay-page.",
+        "after": [
+          {
+            "result": {
+              "duration": 278112487,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 77273068,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to url",
+            "match": {
+              "location": "reviewAndPaySteps.user_navigates_to_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4211644054,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user search for product",
+            "match": {
+              "location": "reviewAndPaySteps.user_search_for_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44295984,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verifies the search result",
+            "match": {
+              "location": "reviewAndPaySteps.user_verifies_the_search_result()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2749336882,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on the product for product description",
+            "match": {
+              "location": "reviewAndPaySteps.user_click_on_the_product_for_product_description()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7338421312,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user adds the product to cart",
+            "match": {
+              "location": "reviewAndPaySteps.user_adds_the_product_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1613948407,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on checkout button",
+            "match": {
+              "location": "reviewAndPaySteps.user_clicks_on_checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130353580,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user choose to checkout the item as a guest user",
+            "match": {
+              "location": "reviewAndPaySteps.user_choose_to_checkout_the_item_as_a_guest_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5574308088,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters the required details on checkout page",
+            "match": {
+              "location": "reviewAndPaySteps.user_enters_the_required_details_on_checkout_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1400676263,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user choose \"Next or named day delivery\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Next or named day delivery",
+                  "offset": 13
+                }
+              ],
+              "location": "reviewAndPaySteps.user_choose_something_option(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2158733587,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects the date after two days",
+            "match": {
+              "location": "reviewAndPaySteps.user_selects_the_date_after_two_days()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186570465,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on continue to payment button",
+            "match": {
+              "location": "reviewAndPaySteps.user_clicks_on_continue_to_payment_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1726427574,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user verifies the details on review and pay page",
+            "match": {
+              "location": "reviewAndPaySteps.user_verifies_the_details_on_review_and_pay_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@reviewAndPay"
+          }
+        ]
+      }
+    ],
+    "name": "ReviewAndPay",
+    "description": "",
+    "id": "reviewandpay",
+    "keyword": "Feature",
+    "uri": "reviewAndPay.feature"
+  }
+]
